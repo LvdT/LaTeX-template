@@ -1,6 +1,6 @@
 LATEXMK = latexmk
 RM = rm -f
-MKFLAGS = -xelatex -quiet -use-make
+MKFLAGS = -lualatex -quiet -use-make
 
 MAIN = main.pdf
 
